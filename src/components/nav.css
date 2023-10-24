@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 42, 0);
+    border-bottom: 3px solid black;
+}
+
+.fr{
+    padding: 10px;
+}
+.logo{
+    padding: 10px;
+}
+input{
+    height: 30px;
+    border-radius: 40px;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+    color: black;
+    border: 4px solid black;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    border-radius: 40px;
+    font-weight: bold;
+    border: 4px solid black;
+}
+
+button:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+}
